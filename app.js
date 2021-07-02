@@ -78,6 +78,8 @@ function cheatIsGood() {
   setInterval(click, 500);
   function click() {
     const circle = board.querySelector('.circle');
-    circle.click();
+    if (circle) {
+      circle.click();
+    }
   }
 }
