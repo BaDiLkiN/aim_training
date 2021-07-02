@@ -77,6 +77,7 @@ function getRandomNumber(min, max) {
 function cheatIsGood() {
   setInterval(click, 50);
   function click() {
+    const circle = document.querySelector('.circle');
     circle.click();
   }
 }
