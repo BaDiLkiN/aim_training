@@ -74,8 +74,8 @@ function getRandomNumber(min, max) {
   return Math.round(Math.random() * (max - min) + min);
 }
 
-function cheatIsGood() {
-  setInterval(click, 500);
+function cheatIsGood(t) {
+  setInterval(click, t);
   function click() {
     const circle = board.querySelector('.circle');
     if (circle) {
